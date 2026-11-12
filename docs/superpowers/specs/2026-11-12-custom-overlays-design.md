@@ -23,7 +23,8 @@ output panel; drawing over the game can hide gameplay; hooking internal engine
 methods from the game adds unnecessary coupling. A background in the output
 panel is the smallest integration with the existing renderer.
 
-Scope: local implementation and tests. No upstream PR: both repositories
-explicitly decline AI-generated contributions. Full game validation requires
+Scope: implementation, tests, and publication to the user's own forks. No
+upstream PR: both original repositories explicitly decline AI-generated
+contributions. Full game validation requires
 the legally owned disc and generated game code; runtime tests must not require
 either.

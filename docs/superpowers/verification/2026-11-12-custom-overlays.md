@@ -30,4 +30,6 @@ the loader handles an explicit upload refusal, which is covered by a test.
 Live native file-dialog, fullscreen, and disc-dependent gameplay checks were
 not run. The checkout has no legally owned disc or generated game code, so a
 full SymphonyRecomp executable was not built. Both repositories explicitly
-decline AI-generated PRs; all work remains local, with no upstream publication.
+decline AI-generated PRs. At the user's request, the feature branches are
+published to `RivierGrullon/SymphonyRecomp` and `RivierGrullon/RecompOne`, with
+the engine submodule URL pointing to the user's fork. No upstream PR was opened.
