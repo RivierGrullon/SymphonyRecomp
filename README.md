@@ -62,6 +62,23 @@ Just make sure that you're using the English North American NTSC copy of the gam
 - [Visual Studio 2026](https://visualstudio.microsoft.com/downloads/) - More Ideal way to work with the project, you can also use VSCode.
 - [VSCode](https://code.visualstudio.com/)
 
+## Custom In-Game Overlays
+
+Open **System > Settings > Display > Custom overlay**, then use **Browse** to
+choose a PNG or JPEG image. Selecting an image enables it immediately; its path
+and enabled state are saved in `settings.json`.
+
+The artwork is centered behind the game, keeps its original aspect ratio, and
+resizes with the output panel in windowed or fullscreen mode. This decorates the
+unused space around a 4:3 game without covering gameplay or changing its aspect
+ratio. PNG transparency is supported. For best results, use artwork designed for
+your display's aspect ratio and keep the decoration outside the game's center.
+
+Use **Enable overlay** to hide it while keeping the selected path, **Reload
+image** after editing the file, or **Clear image** to remove the selection. If
+the file is missing or invalid, the game remains visible and Display settings
+shows the error. Correct the file and reload it to retry.
+
 ## How Was This Made?
 
 This project was made using RecompOne to statically recompile the game, it also used some references from the decomp to help name functions and make patches, please show some love for the Decomp team, they deserve it!
